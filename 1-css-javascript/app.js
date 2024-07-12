@@ -5,11 +5,20 @@ const nube1 = document.querySelector(".uno");
 const nube2 = document.querySelector(".dos");
 const nube3 = document.querySelector(".tres");
 const nube4 = document.querySelector(".cuatro");
+let e = 0;
 
 function noche (){
+    if(e == 0){
 fondo.style.backgroundColor = "blue"
 sol.style.backgroundColor = "white"
+e = 1
+}else{
+    fondo.style.backgroundColor = "white"
+    sol.style.backgroundColor = " rgb(255, 208, 0)" 
+    e = 0
 }
+}
+
 
 function moverSol (){
 sol.style.animation = "solMover 5s linear"
