@@ -25,6 +25,11 @@ body{
     z-index: 1;
 }
 
+.guia{
+    z-index: 7;
+    background-color: transparent;
+}
+
 @keyframes solMover {
     0%{
         bottom: 70px;

@@ -1,5 +1,6 @@
 const fondo = document.querySelector('.container');
 const sol = document.querySelector('.sol');
+const sol2 = document.querySelector('.guia')
 const nube1 = document.querySelector(".uno");
 const nube2 = document.querySelector(".dos");
 const nube3 = document.querySelector(".tres");
@@ -22,5 +23,5 @@ nube4.style.animation = "moverNub4 5s linear"
 }
 
 fondo.addEventListener("click", noche);
-sol.addEventListener("click", moverSol);
+sol2.addEventListener("click", moverSol);
 nube1.addEventListener("click", movernub);
