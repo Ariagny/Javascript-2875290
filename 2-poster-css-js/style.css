@@ -1,0 +1,72 @@
+body{
+    background: white;
+}
+.container{
+    margin: 100px auto;
+    width: 450px ;
+    height: 700px;
+    background-image: url(img/fondo.webp) ;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.Coraline{
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    width: 230px;
+    z-index: 5;
+}
+
+.titulo{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 400px; 
+    z-index: 7;
+}
+
+.gato{
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    width: 230px; 
+    z-index: 4;
+}
+
+.arbol{
+    position: absolute;
+    bottom: 0px;
+    right: -50px;
+    width: 550px;
+    z-index: 3;
+}
+
+.luna{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    z-index: 1;
+}
+
+.boton{
+    position: absolute;
+    opacity: 0.6;
+    top: 60px;
+    right: 20px;;
+    width: 400px;
+    z-index: 2;
+}
+
+.casa{
+    position: absolute;
+    bottom: -10px;
+    left: -20px;
+    width: 450px;
+    z-index: 2;
+}
