@@ -106,11 +106,11 @@ color: var(--white);
 cursor: pointer;
 }
 
-.seccion-tarea i {
+.quit {
     font-size: 18px;
 }
 
-.seccion-tarea i:hover {
+.quit:hover {
     color: var(--blue-light);
     cursor: pointer;
 }
