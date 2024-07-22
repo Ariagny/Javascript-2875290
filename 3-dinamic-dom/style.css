@@ -30,6 +30,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
   min-height: 500px;
   width: 85%;
   max-width: 1400px;
@@ -40,6 +41,7 @@ main {
 }
 
 .pelotica {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,4 +50,21 @@ main {
   border-radius: 50%;
   background-color: aliceblue;
   border: 2px solid black;
+}
+
+.equis{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(179, 179, 179);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+  top: -10px;
+  cursor: pointer;
 }
