@@ -1,22 +1,21 @@
-
 let Musica = [
     {
         id: 1,
-        imagen: 'https://i.ytimg.com/vi/cii6ruuycQA/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAtzRzOkqh9tmiujehjmxXx8dbFRw',
-        nombre: 'Deja vu',
-        artista: 'Olivia Rodrigo',
-        genero: 'Pop',
-        año: 2021,
-        link: 'https://www.youtube.com/watch?v=cii6ruuycQA'
-    },
-    {
-        id: 2,
         imagen: 'https://i.ytimg.com/vi/nCkpzqqog4k/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLBt_PVx7jHU9lo-zbUeNIiNZEd_Lg',
         nombre: "I'm not the only one",
         artista: 'Sam Smith',
         genero: 'Pop',
         año: 2014,
         link: 'https://www.youtube.com/watch?v=nCkpzqqog4k'
+    },
+    {
+        id: 2,
+        imagen: 'https://i.ytimg.com/vi/d51lAHNbeAM/sddefault.jpg',
+        nombre: "You're Special",
+        artista: 'NF',
+        genero: 'Pop-rap',
+        año: 2017,
+        link: 'https://www.youtube.com/watch?v=d51lAHNbeAM'
     },
     {
         id: 3,
@@ -182,94 +181,93 @@ let Musica = [
     },
     {
         id: 21,
-        imagen: 'https://i.ytimg.com/vi/7PCkvCPvDXk/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLAGgHUKioCYe4bwQg5iFN68mE3E-g',
-        nombre: 'All About That Bass',
-        artista: 'Meghan Trainor',
-        genero: 'Dance-pop',
-        año: 2014,
-        link: 'https://www.youtube.com/watch?v=7PCkvCPvDXk'
+        imagen: 'https://i.ytimg.com/vi/450p7goxZqg/maxresdefault.jpg',
+        nombre: 'All of Me',
+        artista: 'John Legend',
+        genero: 'Pop soul',
+        año: 2013,
+        link: 'https://www.youtube.com/watch?v=450p7goxZqg'
     },
     {
         id: 22,
-        imagen: 'https://i.ytimg.com/vi/E-kkX2UuBcg/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLCwssbX3hER5UaVsCCLZ6GFTBBdCA',
-        nombre: 'Besas tan bien',
-        genero: 'Regueton',
-        año: 2014,
-        artista: 'Farruko',
-        link: ''
+        imagen: 'https://i.ytimg.com/vi/odWKEfp2QMY/maxresdefault.jpg',
+        nombre: 'THE LONELIEST',
+        artista: 'Måneskin',
+        genero: 'Pop rock',
+        año: 2023,
+        link: 'https://www.youtube.com/watch?v=odWKEfp2QMY'
     },
     {
         id: 23,
-        imagen: 'https://i.ytimg.com/vi/AQ4TW5Z8eu0/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLB00f1UtjerIq-Td0ditZJYymQQwg',
-        nombre: 'Im still in love with',
-        genero: 'dancehall',
-        año: 2010,
-        artista: 'Sean Paul',
-        link: ''
+        imagen: 'https://i.ytimg.com/vi/Dj9qJsJTsjQ/maxresdefault.jpg',
+        nombre: 'Bad idea right?',
+        artista: 'Olivia Rodrigo',
+        genero: 'Pop',
+        año: 2023,
+        link: 'https://www.youtube.com/watch?v=Dj9qJsJTsjQ'
     },
     {
         id: 24,
-        imagen: 'https://i.ytimg.com/vi/L4tCfUbicfo/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLAtOeLgn2Y7TmNVJdoAQ05owHxJDA',
-        nombre: 'Hooka',
-        genero: 'Regueton',
+        imagen: 'https://i.ytimg.com/vi/Q2WcdaF8uL8/maxresdefault.jpg',
+        nombre: 'Bored',
+        artista: 'Billie Eilish',
+        genero: 'Pop rock',
         año: 2017,
-        artista: 'Don omar',
-        link: ''
+        link: 'https://www.youtube.com/watch?v=Q2WcdaF8uL8'
     },
     {
         id: 25,
-        imagen: 'https://i.ytimg.com/vi/nlXqp3FVrq8/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLBZzOMze1KsEVpQGY821CwawfPmRw',
-        nombre: 'Hola',
-        genero: 'Regueton',
-        año: 2020,
-        artista: 'Dalex',
-        link: ''
+        imagen: 'https://i.ytimg.com/vi/YQHsXMglC9A/maxresdefault.jpg',
+        nombre: 'Hello',
+        artista: 'Adele',
+        genero: 'Pop',
+        año: 2015,
+        link: 'https://www.youtube.com/watch?v=YQHsXMglC9A'
     },
     {
         id: 26,
-        imagen: 'https://i.ytimg.com/vi/ru7cc5jZeuU/hqdefault.jpg?s…HIgYygRMA8=&rs=AOn4CLCeBXsKzx1RZAqzFNsVLsp0rvB97A',
-        nombre: 'Miss independent',
-        genero: 'dancehall',
-        año: 2019,
-        artista: 'Eichem',
-        link: ''
+        imagen: 'https://i.ytimg.com/vi/7bEQv1uf5v0/maxresdefault.jpg',
+        nombre: '29',
+        artista: 'Demi Lovato',
+        genero: 'Pop rock',
+        año: 2022,
+        link: 'https://www.youtube.com/watch?v=7bEQv1uf5v0'
     },
     {
         id: 27,
-        imagen: 'https://i.ytimg.com/vi/-cdwUr6qSGo/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLAYwFj1nlFuLxtUO7tiZ9cIxjVNN',
-        nombre: 'VACAXIONES',
-        genero: 'Regueton',
-        año: 2022,
-        artista: 'Feid',
-        link: ''
+        imagen: 'https://i.ytimg.com/vi/Y0ORhLyJWuc/maxresdefault.jpg',
+        nombre: 'Angels Like You',
+        artista: 'Miley Cyrus',
+        genero: 'Pop',
+        año: 2020,
+        link: 'https://www.youtube.com/watch?v=Y0ORhLyJWuc'
     },
     {
         id: 28,
-        imagen: 'https://i.ytimg.com/vi/wvz97-lNPH8/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLBAH2JosPVWb_QxebVOYQ-9A9CwWw',
-        nombre: 'BZRP Music sessions #51',
-        genero: 'Urbano',
-        año: 2022,
-        artista: 'Bizarrap',
-        link: ''
+        imagen: 'https://i.ytimg.com/vi/Ra-Om7UMSJc/maxresdefault.jpg',
+        nombre: 'Because Of You',
+        artista: 'Kelly Clarkson',
+        genero: 'Pop rock',
+        año: 2004,
+        link: 'https://www.youtube.com/watch?v=Ra-Om7UMSJc'
     },
     {
         id: 29,
-        imagen: 'https://i.ytimg.com/vi/0OkiUUU3Odw/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLA1LVqJG3KvOhk80E4MQDICFOPeew',
-        nombre: 'BZRP Music sessions #36',
-        genero: 'Bizarrap',
+        imagen: 'https://i.ytimg.com/vi/cii6ruuycQA/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAtzRzOkqh9tmiujehjmxXx8dbFRw',
+        nombre: 'Deja vu',
+        artista: 'Olivia Rodrigo',
+        genero: 'Pop',
         año: 2021,
-        artista: 'Bizarrap',
-        link: ''
+        link: 'https://www.youtube.com/watch?v=cii6ruuycQA'
     },
     {
         id: 30,
-        imagen: 'https://i.ytimg.com/vi/A_g3lMcWVy0/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLDXVwk_EQQB2Aqq_FW-0nGlM6dRbw',
-        nombre: 'BZRP Music sessions #52',
-        genero: 'Urbano',
-        año: 2022,
-        artista: 'Bizarrap',
-        link: ''
+        imagen: 'https://i.ytimg.com/vi/J_ub7Etch2U/maxresdefault.jpg',
+        nombre: 'Too Good At Goodbyes',
+        artista: 'Sam Smith',
+        genero: 'Orchestral pop',
+        año: 2017,
+        link: 'https://www.youtube.com/watch?v=J_ub7Etch2U'
     },
    
 ]
-
