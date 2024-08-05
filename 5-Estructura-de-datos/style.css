@@ -1,8 +1,9 @@
 body {
-    background-color: #000000;
+    background-image: url(img/img.jpg);
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .titulo{
     margin: 60px auto 0 auto;
@@ -10,12 +11,15 @@ body {
     color: transparent;
     -moz-text-stroke-width: 1px;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #dddada;
-    text-shadow: 7px 7px #424242a8;
+    -webkit-text-stroke-color: #ffffff;
+    text-shadow: 7px 7px #410569e5;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    border: 2px solid #f39c12; 
+    border: 2px solid #df27fb;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2); 
     border-radius: 10px; 
     padding: 20px; 
     width: 80%;
@@ -29,9 +33,11 @@ body {
 .card {
     width: 340px;
     height: 350px;
-    background-color: #7d7c7c;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -63,35 +69,34 @@ body {
 .card-titulo {
     font-size: 1.2em;
     margin: 0;
-    color: #000000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f7f5f5;
+   
 }
 
 
 .card-descripcion {
     font-size: 0.9em;
-    color: #000000;
+    color: #f7f5f5da;;
     margin: 2px 0;
     flex: 1;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 
 .btn {
     display: inline-block;
     padding: 8px 12px;
     font-size: 0.9em;
-    color: #ffffff;
-    background-color: #2d2d2d;
+    color: #333;
+    font-weight: 600;
+    background-color: #fff;
     text-decoration: none;
     border-radius: 4px;
     text-align: center;
     transition: background-color 0.3s ease;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .btn:hover {
-    background-color: #151516;
+    background-color: #b3b3b3e5;
+    color: #fff;
     transform: scale(1.04); 
     cursor: pointer; 
     
