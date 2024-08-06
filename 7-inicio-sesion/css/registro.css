@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 500px;
-    background: url(../assets/img.jpg) no-repeat;
+    background: url(../assets/img2.jpg) no-repeat;
 }
 
 .wrapper{
@@ -72,7 +72,7 @@ margin: 30px 0;
 }
 
 .inicio-sesion-link a  {
-    color: #bd80e6;
+    color: #26093c;
     text-decoration: none;
     font-weight: 600;
 }
