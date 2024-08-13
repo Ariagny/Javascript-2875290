@@ -1,15 +1,14 @@
 const container = document.querySelector(".container")
 const  circle = document.querySelector(".circle")
 
-let e = 0
 
 let url = "https://rickandmortyapi.com/api/character"
 fetch(url)
 .then(response => response.json())
 .then(data => {
- data.results.forEach(element => {
-    console.log(data.results)
-    const card = document.createElement('div')
+    data.results.forEach(element => {
+        console.log(data.results)
+        const card = document.createElement('div')
         card.classList.add("card");
         container.appendChild(card)
 
@@ -18,7 +17,7 @@ fetch(url)
             <div class="info">
             <h1>${element.name}</h1>
             <div class="section">
-            <div class="circle"></div>
+            <div class="circle "${element.status === 'Alive' ? "green": "red"}></div>
             <span class="estado">${element.status} - ${element.species} </span>
             </div>
             <div class="detalle">
@@ -29,8 +28,21 @@ fetch(url)
         </div>
         `
         container.appendChild(card)
+
+       /*  function estado (){
+            if (element.status === "Alive"){
+              circle.style.ackground = "Green";
+            }else if (element.status === "Dead"){
+              circle.style.background = "Red";
+            }else{
+              circle.style.background = "#616161";
+            }
+          }
+
+          estado() */
  });
 }
 )
 
-function estado (e){}
+
+
