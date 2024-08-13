@@ -22,8 +22,8 @@ fetch(url)
             <span class="estado">${element.status} - ${element.species} </span>
             </div>
             <div class="detalle">
-                <p><strong>Última ubicación conocida:</strong> la guarida de Worldender</p>
-                <p><strong>Visto por primera vez en:</strong> Vindicadores 3: El regreso de Worldender</p>
+                <p><strong>Última ubicación conocida:</strong><br>${element.location.name}</p>
+                <p><strong>Visto por primera vez en:</strong><br>${element.origin.name}</p>
             </div>
         </div>
         </div>
