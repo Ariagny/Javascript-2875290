@@ -67,7 +67,7 @@ let Musica = [
         imagen: 'https://i.ytimg.com/vi/5GJWxDKyk3A/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLBKHz09QTikICj_EZKs8mYrojE31A',
         nombre: 'Happier Than Ever',
         artista: 'Billie Eilish',
-        genero: 'Pop rock',
+        genero: 'Pop-rock',
         año: 2021,
         link: 'https://www.youtube.com/watch?v=5GJWxDKyk3A'
     },
@@ -85,7 +85,7 @@ let Musica = [
         imagen: 'https://i.ytimg.com/vi/ZmDBbnmKpqQ/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLB265-VNkGfGN4aBmKtebnskiNXRA',
         nombre: 'Drivers license',
         artista: 'Olivia Rodrigo',
-        genero: 'Indie pop',
+        genero: 'Indie-pop',
         año: 2021,
         link: 'https://www.youtube.com/watch?v=ZmDBbnmKpqQ'
     },
@@ -94,7 +94,7 @@ let Musica = [
         imagen: 'https://i.ytimg.com/vi/RlPNh_PBZb4/hqdefault.jpg?s…EIYAXABwAEG&rs=AOn4CLBgFZLFGrQWgEbiSdY_th5tJ18NmQ',
         nombre: 'Vampire',
         artista: 'Olivia Rodrigo',
-        genero: 'Pop rock',
+        genero: 'Pop-rock',
         año: 2023,
         link: 'https://www.youtube.com/watch?v=RlPNh_PBZb4'
     },
@@ -184,7 +184,7 @@ let Musica = [
         imagen: 'https://i.ytimg.com/vi/450p7goxZqg/maxresdefault.jpg',
         nombre: 'All of Me',
         artista: 'John Legend',
-        genero: 'Pop soul',
+        genero: 'Pop',
         año: 2013,
         link: 'https://www.youtube.com/watch?v=450p7goxZqg'
     },
@@ -193,7 +193,7 @@ let Musica = [
         imagen: 'https://i.ytimg.com/vi/odWKEfp2QMY/maxresdefault.jpg',
         nombre: 'THE LONELIEST',
         artista: 'Måneskin',
-        genero: 'Pop rock',
+        genero: 'Pop-rock',
         año: 2023,
         link: 'https://www.youtube.com/watch?v=odWKEfp2QMY'
     },
@@ -211,7 +211,7 @@ let Musica = [
         imagen: 'https://i.ytimg.com/vi/Q2WcdaF8uL8/maxresdefault.jpg',
         nombre: 'Bored',
         artista: 'Billie Eilish',
-        genero: 'Pop rock',
+        genero: 'Pop-rock',
         año: 2017,
         link: 'https://www.youtube.com/watch?v=Q2WcdaF8uL8'
     },
@@ -229,7 +229,7 @@ let Musica = [
         imagen: 'https://i.ytimg.com/vi/7bEQv1uf5v0/maxresdefault.jpg',
         nombre: '29',
         artista: 'Demi Lovato',
-        genero: 'Pop rock',
+        genero: 'Pop-rock',
         año: 2022,
         link: 'https://www.youtube.com/watch?v=7bEQv1uf5v0'
     },
@@ -247,7 +247,7 @@ let Musica = [
         imagen: 'https://i.ytimg.com/vi/Ra-Om7UMSJc/maxresdefault.jpg',
         nombre: 'Because Of You',
         artista: 'Kelly Clarkson',
-        genero: 'Pop rock',
+        genero:'Pop-rock',
         año: 2004,
         link: 'https://www.youtube.com/watch?v=Ra-Om7UMSJc'
     },
@@ -256,7 +256,7 @@ let Musica = [
         imagen: 'https://i.ytimg.com/vi/cii6ruuycQA/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAtzRzOkqh9tmiujehjmxXx8dbFRw',
         nombre: 'Deja vu',
         artista: 'Olivia Rodrigo',
-        genero: 'Pop',
+        genero:'Pop',
         año: 2021,
         link: 'https://www.youtube.com/watch?v=cii6ruuycQA'
     },
@@ -265,7 +265,7 @@ let Musica = [
         imagen: 'https://i.ytimg.com/vi/J_ub7Etch2U/maxresdefault.jpg',
         nombre: 'Too Good At Goodbyes',
         artista: 'Sam Smith',
-        genero: 'Orchestral pop',
+        genero: 'Orchestral-pop',
         año: 2017,
         link: 'https://www.youtube.com/watch?v=J_ub7Etch2U'
     },

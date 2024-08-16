@@ -1,5 +1,12 @@
 const container = document.querySelector('.container')
+const buscador = document.querySelector("#buscador")
+const textoBusqueda = document.querySelector("#textoBusqueda")
+const listaGenero = document.querySelector("#listaGenero")
+const listaCantantes = document.querySelector("#listaCantantes")
 
+
+
+function mostrarResults (Musica){
 Musica.forEach(element => {
 let card = document.createElement('div')
 
@@ -17,3 +24,34 @@ card.innerHTML =
 `
 container.appendChild(card);
 })
+
+}
+
+mostrarResults(Musica)
+
+function filtrar (e){
+    e.preventDefault()
+    container.innerHTML = ""
+
+    let filtro = Musica
+  
+    if(listaGenero.value !== "All"){
+     filtro = filtro.filter(Musica => Musica.genero.toLowerCase() == listaGenero.value.toLowerCase());
+
+    }
+    
+     if(listaCantantes.value !== "All"){
+        filtro = filtro.filter(Musica => Musica.artista.toLowerCase() == listaCantantes.value.toLowerCase());
+   
+       } 
+
+    if(textoBusqueda.value){
+      filtro = filtro.filter(Musica => Musica.nombre.toLowerCase().includes(textoBusqueda.value.toLowerCase()));
+    }
+
+    mostrarResults(filtro) 
+}
+
+console.log(Musica)
+
+buscador.addEventListener("submit", filtrar)

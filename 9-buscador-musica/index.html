@@ -7,7 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <div class="titulo">Éxitos del pop</div>
+    <div class="titulo">Éxitos del pop</div>
+    <header class="heade">
+        <form id="buscador">
+            <input id="textoBusqueda" type="text">
+            <select id="listaGenero">
+                <option value="All">Pop</option>
+                <option value="Pop-rap">Pop-rap</option>
+                <option value="Disco-pop">Disco-pop</option>
+                <option value="Pop-rock">Pop-rock</option>
+                <option value="Indie-pop">Indie-pop</option>
+                <option value="Electro-pop">Electro-pop</option>
+                <option value="Orchestral-pop">Orchestral-pop</option>
+            </select>
+            <select id="listaCantantes">
+                <option value="All">Todos</option>
+                <option value="Sam Smith">Sam Smith</option>
+                <option value="NF">NF</option>
+                <option value="Sabrina Carpenter">Sabrina Carpenter</option>
+                <option value="Katy Perry">Katy Perry</option>
+                <option value="Ariana Grande">Ariana Grande</option>
+                <option value="Billie Eilish">Billie Eilish</option>
+                <option value="Selena Gomez">Selena Gomez</option>
+                <option value="Olivia Rodrigo">Olivia Rodrigo</option>
+                <option value="Adele">Adele</option>
+                <option value="Doja Cat">Doja Cat</option>
+                <option value="Shawn Mendes">Shawn Mendes</option>
+                <option value="Carly Rae Jepsen">Carly Rae Jepsen</option>
+                <option value="John Legend">John Legend</option>
+                <option value="Måneskin">Måneskin</option>
+                <option value="Demi Lovato">Demi Lovato</option>
+                <option value="Kelly Clarkson">Kelly Clarkson</option>
+
+            </select>
+            <button class="btnBuscar" type="submit">Buscar</button>
+        </form>
+    </header>
+
 <div class="container"></div>
 <script src="bd.js"></script>
 <script src="app.js"></script>

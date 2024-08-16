@@ -3,12 +3,65 @@ body {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
 }
 
+.heade{
+    margin: 30px auto 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textoBusqueda{
+    width: 200px;
+    background:white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: 15px;
+    padding: 5px;   
+}
+
+#listaGenero{
+    width: 130px;
+    background:white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+#listaCantantes{
+    width: 150px;
+    background:white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: 15px;
+    padding: 5px; 
+}
+
+.btnBuscar{
+    width: 90px;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    border-radius: 15px;
+    padding: 5px; 
+}
+
 .titulo{
-    margin: 90px auto 5px auto;
+    margin: 30px auto 5px auto;
     font-size: 4em; 
     color: transparent;
     -moz-text-stroke-width: 1px;
@@ -43,7 +96,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     break-inside: avoid;
 }
 
