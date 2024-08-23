@@ -1,0 +1,185 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    text-align: center;
+}
+.header1{
+    background-color: rgba(214, 214, 214, 0.849);
+}
+.contenedor{
+    max-width: 1910px;
+    gap: 10px;
+    margin: auto;
+
+}
+header .contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin: 0;
+}
+header a{
+    padding: 1px 10px;
+    text-decoration: none;
+    font-weight:bold;
+    color: rgb(39, 39, 39);
+}
+header a:hover{
+    color: rgb(148, 16, 27);
+}
+
+.imglogo{
+    margin: 15px 0 10px 0 ;
+    width: 130px;
+}
+
+.user{
+    margin: 0 10px 0 40px ;
+}
+
+.contenedor2{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;    
+}
+
+.search-box{
+    background-color: white;
+    min-width: 500px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.562);
+    margin: 0 10px 0 0 ;
+    
+}
+
+.search-box input{
+    flex: 1;
+    padding: 15px 10px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 20px;
+}
+
+.search-box button img{
+    width: 35px;
+}
+
+.search-box button{
+    padding: 10px 12px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+.Usua{
+    color:rgb(185,61,72) ;
+    font-size: 35px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.container{
+margin: 50px auto 0;
+    width: 600px;
+    min-height: 500px;
+    background-color: #21102B;
+}
+
+
+.foote{
+    background-color: rgba(201, 198, 198, 0.637);
+    padding: 10px;
+    padding: 10px;
+    margin-top: 60px;
+
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1800px;
+    margin: auto;
+}
+
+.foot a{
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.img-logo{
+    width: 45px;
+}
+
+.foote{
+    background-color: rgba(54, 54, 54, 0.637);
+    padding: 20px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dis{
+    font-size: 19px;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 0 0 50px;
+}
+
+.redes a{
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+.Yout{
+color: rgb(255, 255, 255);
+}
+
+.Tik{
+color: rgb(255, 255, 255);
+}
+
+.Whats{
+    color: rgb(255, 255, 255);
+}
+
+.Ins{
+color: rgb(255, 255, 255);
+}
+
+.redes a:hover{
+    transform: scale(1.4);
+}
+
+.sugerencias{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+}
+
