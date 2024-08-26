@@ -151,14 +151,14 @@ h1{
     text-decoration: none;
     color: white;
 }
-.T-intro{
-    margin: 30px auto  15px;
+.T-conte{
+    margin: 50px auto  15px;
     color: white;
     text-decoration: 3px solid white underline overline;
 }
 
 .video{
-    margin: 20px 0 50px 0;
+    margin: 20px 0 20px 0;
 }
 .box{
     position: relative;
@@ -166,13 +166,57 @@ h1{
     width: 900px;
     min-width: 700px;
     min-height: 500px;
-    background-color: #21102B;
+    background-color: #7D243A;
     border-radius: 10px;
 }
 .container{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+}
+
+.container2{
+    margin-left: 60px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.container3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.T-intro{
+    color: white;
+    text-decoration: 3px solid white ;
+}
+
+.accordion {
+    text-align: start;
+    background-color: #7D243A;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 18px;
+}
+
+.desca{
+    text-decoration: none;
+    color: white;
+    margin: 0 0 40px 0 ;
 }
 
 
