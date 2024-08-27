@@ -173,9 +173,77 @@ h1{
     flex-direction: column;
 }
 
+.estado{
+    margin-top: 30px;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle-a{
+    margin: 4px 5px 0 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #363636a2;
+}
+
+.activo{
+    display: flex;
+    flex-direction: row;
+}
+
+.circle-n{
+    margin: 4px 5px 0 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.no-activo{
+    display: flex;
+    flex-direction: row;
+}
+
+.p-estado{
+    color: white;
+}
+
+.actividades{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 30px;
+}
+.acti{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px ;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #585858;
+    border-radius: 15px 0 0 0 ;
+}
+
+.acti2{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #585858;
+
+}
 
 .foote{
-    background-color: rgba(201, 198, 198, 0.637);
+    background-color: #535353;
     padding: 10px;
     padding: 10px;
     margin-top: 60px;
@@ -198,11 +266,11 @@ h1{
 }
 
 .img-logo{
-    width: 45px;
+    width: 50px;
 }
 
 .foote{
-    background-color: rgba(54, 54, 54, 0.637);
+    background-color: #535353;
     padding: 20px;
 }
 
