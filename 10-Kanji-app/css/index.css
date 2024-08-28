@@ -129,7 +129,7 @@ h1{
 .evalu{
     width: 176px;
     color: white;
-    background-color: #EF5941;  
+    background-color: #e65a45ed;  
     position: absolute;
     top: -45px;
     left: 538px;
@@ -139,7 +139,7 @@ h1{
 .certi{
     width: 176px;
     color: white;
-    background-color: #FF7555;  
+    background-color: #fc785af0;  
     position: absolute;
     top: -45px;
     left: 714px;

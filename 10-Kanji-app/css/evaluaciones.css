@@ -129,7 +129,7 @@ h1{
 .evalu{
     width: 176px;
     color: white;
-    background-color: #EF5941;  
+    background-color: #e65a45ed;  
     position: absolute;
     top: -45px;
     left: 538px;
@@ -139,7 +139,7 @@ h1{
 .certi{
     width: 176px;
     color: white;
-    background-color: #FF7555;  
+    background-color: #fc785af0;  
     position: absolute;
     top: -45px;
     left: 714px;
@@ -164,7 +164,7 @@ h1{
     width: 900px;
     min-width: 700px;
     min-height: 500px;
-    background-color:#B93D48;
+    background-color:#e65a45ed;
     border-radius: 10px;
 }
 .container{
@@ -187,7 +187,7 @@ h1{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #363636a2;
+    background-color:  #6d6c6c;
 }
 
 .activo{
@@ -274,7 +274,7 @@ h1{
     gap: 15px;
     justify-content: space-around;
     align-items: center;
-    background-color: #585858;
+    background-color:  #6d6c6c;
 }
 
 .acti3{
@@ -285,7 +285,7 @@ h1{
     gap: 15px ;
     justify-content: space-around;
     align-items: center;
-    background-color: #585858;
+    background-color: #6d6c6c;
     border-radius: 0 0 0 15px  ;
 }
 

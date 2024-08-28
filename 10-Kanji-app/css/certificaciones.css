@@ -157,14 +157,16 @@ h1{
     text-decoration: 3px solid white underline overline;
 }
 
-
+.video{
+    margin: 20px 0 50px 0;
+}
 .box{
     position: relative;
     margin: 100px auto 0;
     width: 900px;
     min-width: 700px;
     min-height: 500px;
-    background-color:#B93D48;
+    background-color: #fc785af0;
     border-radius: 10px;
 }
 .container{
@@ -173,44 +175,6 @@ h1{
     flex-direction: column;
 }
 
-.estado{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-    width: 70%;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.circle-a{
-    margin: 4px 5px 0 0;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #6d6c6c;
-}
-
-.activo{
-    display: flex;
-    flex-direction: row;
-}
-
-.circle-n{
-    margin: 4px 5px 0 0;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #000000;
-}
-
-.no-activo{
-    display: flex;
-    flex-direction: row;
-}
-
-.p-estado{
-    color: white;
-}
 
 .actividades{
     position: relative;
@@ -220,77 +184,50 @@ h1{
     justify-content: center;
     flex-direction: column;
     gap: 5px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
-.examen{
-    width: 224px;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;  
-    position: absolute;
-    top: -40px;
-    left: 293px;
-    padding: 10px 0;
-    border-radius: 15px 0 0 0;
+.estado{
+    width: 110px;
 }
 
-.fecha{
-    width: 172px;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;  
-    position: absolute;
-    top: -40px;
-    right:212px;
-    padding: 10px 0;
-}
-
-.calificacion{
-    width: 99px;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;  
-    position: absolute;
-    top: -40px;
-    right: 113px;
-    padding: 10px 0;
-    border-radius: 0 15px 0 0;  
-}
 
 .acti{
-    color: white;
+    color: rgb(0, 0, 0);
     width: 75%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: #000000;
-    border-radius: 15px 0 0 0 ;
+    background-color: #fff5f5;
+    border-radius: 15px;
+    padding: 0 15px;
 }
 
 .acti2{
-    width: 75%;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #6d6c6c;
-}
-
-.acti3{
-    color: white;
+    color: rgb(0, 0, 0);
     width: 75%;
     display: flex;
     flex-direction: row;
-    gap: 15px ;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color:  #6d6c6c;
-    border-radius: 0 0 0 15px  ;
+    background-color: #fff5f5;
+    border-radius: 15px;
+    padding: 0 15px;
 }
 
-.fech{
-    margin: 0 20px 0 0;
+.btn{
+    width: 110px;
+    height: 30px;
+    background-color: #4b4b4b;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
 }
 
 
