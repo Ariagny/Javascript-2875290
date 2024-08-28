@@ -175,6 +175,7 @@ h1{
 
 .estado{
     margin-top: 30px;
+    margin-bottom: 30px;
     display: flex;
     width: 70%;
     align-items: center;
@@ -212,35 +213,86 @@ h1{
 }
 
 .actividades{
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 5px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
+
+.examen{
+    width: 224px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;  
+    position: absolute;
+    top: -40px;
+    left: 293px;
+    padding: 10px 0;
+    border-radius: 15px 0 0 0;
+}
+
+.fecha{
+    width: 172px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;  
+    position: absolute;
+    top: -40px;
+    right:212px;
+    padding: 10px 0;
+}
+
+.calificacion{
+    width: 99px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;  
+    position: absolute;
+    top: -40px;
+    right: 113px;
+    padding: 10px 0;
+    border-radius: 0 15px 0 0;  
+}
+
 .acti{
-    width: 60%;
+    color: white;
+    width: 75%;
     display: flex;
     flex-direction: row;
-    gap: 15px ;
     justify-content: space-around;
     align-items: center;
-    background-color: #585858;
+    background-color: #000000;
     border-radius: 15px 0 0 0 ;
 }
 
 .acti2{
-    width: 60%;
+    width: 75%;
+    color: white;
     display: flex;
     flex-direction: row;
     gap: 15px;
     justify-content: space-around;
     align-items: center;
     background-color: #585858;
-
 }
+
+.acti3{
+    color: white;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px ;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #585858;
+    border-radius: 0 0 0 15px  ;
+}
+
+.fech{
+    margin: 0 20px 0 0;
+}
+
 
 .foote{
     background-color: #535353;
