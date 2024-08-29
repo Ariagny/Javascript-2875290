@@ -295,9 +295,12 @@ color: rgb(255, 255, 255);
     transform: scale(1.4);
 }
 
-.sugerencias{
+.btn-sugerencia{
+    background-color: transparent;
+    border: none;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
