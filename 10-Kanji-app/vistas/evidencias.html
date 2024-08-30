@@ -23,9 +23,12 @@
             <button class="submit"><img src="../Sources/img/icons8-search-50.png" alt="lupa"></button>
           </form>
         </div>
-        <a href="../vistas/inicio-sesión.html" target="_blank" class="Usua">
-          <i class="bi bi-person-circle user"></i> 
-        </a>
+        <div class="usuario">
+          <div class="saludo">.</div>
+          <a href="./vistas/inicio-sesión.html" target="_self" class="Usua">
+            <i class="bi bi-person-circle user"></i> 
+          </a>
+        </div>
       </div>
     </header>
 
@@ -95,29 +98,71 @@
     </div>
 </div>
 
-<footer class="foote">
-  <div class="foot">
-      <a class="logo-fo" href="">
-          <img class="img-logo" src="../Sources/img/img2.png"/>
-        </a>
-        <div class="redes">
-            <a href="https://www.youtube.com/" target="_blank" class="Yout">
-                <i class="fa-brands fa-youtube"></i>   
-            </a>
-            <a href="https://www.tiktok.com/es/" target="_blank" class="Tik">
-                <i class="fa-brands fa-tiktok"></i>  
-            </a>
-            <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank" class="Whats">
-                <i class="fa-brands fa-whatsapp"></i>
-            </a>
-            <a href="https://www.instagram.com/" target="_blank" class="Ins">
-                <i class="fa-brands fa-instagram"></i>  
-            </a>    
-        </div> 
-        <div class="sugerencias">
-            <button class="btn-sugerencia">Enviar sugerencias</button>
-        </div>         
+<div class="footer">
+
+
+  <div class="sugerencia">
+
+        
+    <div class="cuadro">
+        <img src="./Sources/img/img1.png" alt="" class="img-logo-S">
+        
+        <div class="x">
+        <i class="fa-solid fa-xmark"></i>
+        </div>
     </div>
-</footer>
+  
+    <div class="caja">
+        <form action="" id="formulario">
+            <div class="input-caja">
+                <span>Nombre:</span>
+                <input id="Nombre" value="" type="Nombre">
+            </div>
+            <div class="input-caja">
+                <span>Correo electrónico:</span>
+                <input id="Correo" value="" type="Correo">
+  
+            </div>
+  
+            <div class="input-caja2">
+                <span>Mensaje:</span>
+                <input id="Mensaje" value="" type="Mensaje">
+            </div>
+            <div>
+                <button type="submit" class="btn-S">Enviar sugerencia</button>
+            </div>
+          
+        </form>
+    </div>
+  
+  </div>
+
+
+  <footer class="foote">
+      <div class="foot">
+          <a class="logo-fo" href="">
+              <img class="img-logo" src="../Sources/img/img2.png"/>
+            </a>
+            <div class="redes">
+                <a href="https://www.youtube.com/" target="_blank" class="Yout">
+                    <i class="fa-brands fa-youtube"></i>   
+                </a>
+                <a href="https://www.tiktok.com/es/" target="_blank" class="Tik">
+                    <i class="fa-brands fa-tiktok"></i>  
+                </a>
+                <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank" class="Whats">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="Ins">
+                    <i class="fa-brands fa-instagram"></i>  
+                </a>    
+            </div> 
+            <div class="sugerencias">
+                <button class="btn-sugerencia">Enviar sugerencias</button>
+            </div>         
+        </div>
+    </footer>
+
+  </div>
     <script src="../js/evidencias.js"></script>
 </body>
