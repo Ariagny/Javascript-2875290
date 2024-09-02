@@ -35,6 +35,7 @@ function registrarUser(e){
     
     localStorage.setItem("user", JSON.stringify(user));   
     formulario.reset()
+    window.location = "../vistas/inicio-sesión.html"
 }
 
 formulario.addEventListener("submit",registrarUser)
