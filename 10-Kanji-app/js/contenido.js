@@ -1,3 +1,14 @@
+const mySidenav = document.querySelector("#mySidenav")
+const barra = document.querySelector(".barra")
+function openNav() {
+  mySidenav.style.width = "250px";
+}
+
+function closeNav() {
+  mySidenav.style.width = "0";
+}
+
+barra.addEventListener("click", openNav)
 //aparecer y desaparecer sugerencia
 const sugerencia = document.querySelector(".sugerencia")
 const btnSugerencia = document.querySelector(".btn-sugerencia")
@@ -33,12 +44,6 @@ function registrarSugerencia(e){
 formularioS.addEventListener("submit",registrarSugerencia)
 btnSugerencia.addEventListener("click", enviarSugerencia)
 borrarSugerencia.addEventListener("click", enviarSugerencia)
-
-
-//filtrar
-const buscador = document.querySelector(".search-box")
-const textoBusqueda = document.querySelector("#textoBusqueda")
-const caja = document.querySelector(".box")
 
 //contenido
 const box = document.querySelector(".box2")
