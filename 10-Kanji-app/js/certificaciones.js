@@ -1,3 +1,16 @@
+//menu hamburguesa
+const mySidenav = document.querySelector("#mySidenav")
+const barra = document.querySelector(".barra")
+function openNav() {
+  mySidenav.style.width = "250px";
+}
+
+function closeNav() {
+  mySidenav.style.width = "0";
+}
+
+barra.addEventListener("click", openNav)
+
 const sugerencia = document.querySelector(".sugerencia")
 const btnSugerencia = document.querySelector(".btn-sugerencia")
 const borrarSugerencia = document.querySelector(".x")

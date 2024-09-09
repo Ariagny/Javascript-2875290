@@ -1,3 +1,4 @@
+//menu hamburguesa
 const mySidenav = document.querySelector("#mySidenav")
 const barra = document.querySelector(".barra")
 function openNav() {
