@@ -34,7 +34,7 @@ formularioS.addEventListener("submit",registrarSugerencia)
 btnSugerencia.addEventListener("click", enviarSugerencia)
 borrarSugerencia.addEventListener("click", enviarSugerencia)
 
-
+//registrar datos del usuario
 const Username = document.querySelector("#Username");
 const Password = document.querySelector("#Password");
 const formulario = document.querySelector("#formulario");

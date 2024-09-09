@@ -33,12 +33,10 @@ btnSugerencia.addEventListener("click", enviarSugerencia)
 borrarSugerencia.addEventListener("click", enviarSugerencia)
 
 
+//inicio de sesion
 const Username = document.querySelector("#Username");
 const Password = document.querySelector("#Password");
 const formulario = document.querySelector("#formulario");
-
-
-//inicio de sesion
 
 function validarUsuario (e){
     e.preventDefault();
