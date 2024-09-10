@@ -86,13 +86,6 @@ margin: 30px 0;
     color: #000000;
 }
 
-.input-box i{
-    position: absolute;
-    right: 20px;
-     top: 30%;
-    font-size: 20px;
-}
-
 .btn{
     width: 50%;
     height: 45px;
@@ -125,7 +118,7 @@ margin: 30px 0;
     font-weight: 600;
 }
 
-.register-link p a:hover{
+.register-link a:hover{
     text-decoration: underline;
 }
 

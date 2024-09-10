@@ -76,12 +76,6 @@ header a:hover{
     width: 130px;
 }
 
-.contenedor2{
-margin: 0%;
-padding: 0%;
-box-sizing: border-box;    
-}
-
 .menu{
     font-size: 30px;
     margin: 10px 60px 10px 10px;
@@ -121,9 +115,7 @@ box-sizing: border-box;
     text-align: left;
   }
   
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
+ 
   
   .dropdown:hover .dropdown-content {
     display: block;

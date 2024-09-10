@@ -11,6 +11,7 @@ function closeNav() {
 
 barra.addEventListener("click", openNav)
 
+//mostrar sugerencia
 const sugerencia = document.querySelector(".sugerencia")
 const btnSugerencia = document.querySelector(".btn-sugerencia")
 const borrarSugerencia = document.querySelector(".x")
@@ -19,6 +20,7 @@ const Nombre = document.querySelector("#Nombre");
 const Mensaje = document.querySelector("#Mensaje");
 const CorreoS = document.querySelector("#Correo-S");
 
+//para el boton sugerencia
 function enviarSugerencia() {
     if (sugerencia.style.display === "none") {
       sugerencia.style.display = "block";
@@ -26,11 +28,12 @@ function enviarSugerencia() {
       sugerencia.style.display = "none";
     }
   }
-
+//la X
 function cerrarSugerencia(){
     sugerencia.style.display = "none";
 }
 
+//guardar información
 function registrarSugerencia(e){
   e.preventDefault();
     let sugerencias = {
@@ -46,6 +49,7 @@ formularioS.addEventListener("submit",registrarSugerencia)
 btnSugerencia.addEventListener("click", enviarSugerencia)
 borrarSugerencia.addEventListener("click", enviarSugerencia)
 
+//saludo
 const saludo = document.querySelector(".saludo");
 
 let nombreUser = JSON.parse(localStorage.getItem("user"));

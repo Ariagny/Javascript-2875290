@@ -1,3 +1,4 @@
+// mostrar sugerencia
 const sugerencia = document.querySelector(".sugerencia")
 const btnSugerencia = document.querySelector(".btn-sugerencia")
 const borrarSugerencia = document.querySelector(".x")
@@ -6,6 +7,7 @@ const Nombre = document.querySelector("#Nombre");
 const Mensaje = document.querySelector("#Mensaje");
 const CorreoS = document.querySelector("#Correo-S");
 
+//boton sugerencia
 function enviarSugerencia() {
     if (sugerencia.style.display === "none") {
       sugerencia.style.display = "block";
@@ -14,9 +16,12 @@ function enviarSugerencia() {
     }
   }
 
+  //la X
 function cerrarSugerencia(){
     sugerencia.style.display = "none";
 }
+
+//guardar la información
 function registrarSugerencia(e){
   e.preventDefault();
     let sugerencias = {
@@ -24,6 +29,7 @@ function registrarSugerencia(e){
         userCorreo: CorreoS.value,
         userMensaje: Mensaje.value,
     }
+    //enviar información a local storage
     localStorage.setItem("sugerencias", JSON.stringify(sugerencias));
         window.location = "./inicio-sesión.html"
 }
@@ -38,20 +44,16 @@ const Username = document.querySelector("#Username");
 const Password = document.querySelector("#Password");
 const formulario = document.querySelector("#formulario");
 
+//verificar usuario
 function validarUsuario (e){
     e.preventDefault();
-
+    //llamar la información de local storage
     let currentUser = JSON.parse(localStorage.getItem("user"));
-    console.log(currentUser.userN);
-    console.log(currentUser.userP);
-
-console.log(Boolean(Username.value === currentUser.userN));
-console.log(Boolean(Password.value === currentUser.userP));
 
 if (Username.value === currentUser.userN && Password.value === currentUser.userP){
     window.location = "../index.html"
 }else {
-    console.log("Sigue intentando")
+  alert("El usuario o la contraseña es incorrecta");
 }
 
 formulario.reset()
